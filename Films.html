@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1, user-scalable=no">
+<style type="text/css">
+   <link rel="stylesheet" href="hyperlink.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <head>
+        <style>
+            /**header**/
+
+#wrapper{
+              width:760px;
+              margin:0 auto;
+             border:solid #000080
+}
+}
+#header{
+         background-color: #008080;
+         color: #00ffff;
+         text-aling: center;
+}
+{font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+        </style>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+            <h1>Nirva's Paintings</h1>
+            </div><!--End Header-->
+            <!--Nav Division-->
+          
+          <div id="nav">
+          <table style="width: 100%" cellspacing="3" cellpadding="3">
+          <tr style="background-color: #ffcc33;">
+          <td style="width:15%"><a href="Home.htm">Home</a></td>
+          <td style="width: 15%"><a href="Paintings.html">Paintings</a></td>
+          <td style="width: 15%"><a href="Books.html">Books</a></td>
+          <td style="width: 15%"><a href="Films.html">Films</a></td>
+          <td style="width: 10%"><a href="News.html">News</a></td>
+          <td style="width:10%"><a href="contact.html">Contact</a></td>
+          <td style="width:10%"><a href="Shop.html">Shop</a></td>
+          <td style="width:10%"><a href="About.html">About</a></td>
+          </tr>
+          </table>
+          </div>
+          <div id="nav">
+            <table style="width: 100%" cellspacing="3" cellpadding="3">
+            <tr style="background-color: #e3e5e9;">
+            <td style="width: 25%"><a href="music.html">music</a></td>
+            <td style="width: 25%"><a href="textrack.html">Audio Stories</a></td>
+            <td style="width: 25%"><a href="Storytime.html">Story</a></td>
+            </tr>
+            </table>
+            </div><!--End nav-->
+        
+
+          
+          <h1 style="text-align:center; background-color: #056767;">    Become a Patron</h1>
+          <form action="https://www.paypal.com/donate" method="post" target="_top">
+ <!-- Identify your business so that you can collect the payments. -->
+ <input type="hidden" name="business" value="donations@kcparkfriends.org">
+ <!-- Specify details about the contribution -->
+ <input type="hidden" name="no_recurring" value="0">
+ <input type="hidden" name="item_name" value="Friends of the Park">
+ <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
+ <input type="hidden" name="currency_code" value="USD">
+ <!-- Display the payment button. -->
+ <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+ <img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+</form>
+
+    <body>
+      
+          </button>
+          <button type="button" class="pay-now-btn">
+             Donate with Netbanking
+          </button>
+    
+          <!-- <button type="button" class="pay-now-btn">
+          Netbanking options
+          </button> -->
+        </div>
+    
+        <div class="card-details">
+          <p>Donate using Credit or Debit card</p>
+    
+          <div class="card-number">
+            <label> Card Number </label>
+            <input
+              type="text"
+              class="card-number-field"
+              placeholder="###-###-###"/>
+          </div>
+          <br />
+          <div class="date-number">
+            <label> Expiry Date </label>
+            <input type="text" class="date-number-field" 
+                   placeholder="DD-MM-YY" />
+          </div>
+    
+          <div class="cvv-number">
+            <label> CVV number </label>
+            <input type="text" class="cvv-number-field" 
+                   placeholder="xxx" />
+          </div>
+          <div class="nameholder-number">
+            <label> Card Holder name </label>
+            <input
+              type="text"
+              class="card-name-field"
+              placeholder="Enter your Name"/>
+          </div>
+          <button type="submit" 
+                  class="submit-now-btn">
+            submit
+          </button>
+        </div>
+      </div>
+      <form action="/action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
+      
+      <script type="text/javascript">
+        window.addEventListener('load', async () => {
+          if (window.ethereum) {
+            window.web3 = new Web3(ethereum);
+            try {
+              await ethereum.enable();
+              initPayButton()
+            } catch (err) {
+              $('#status').html('User denied account access', err)
+            }
+          } else if (window.web3) {
+            window.web3 = new Web3(web3.currentProvider)
+            initPayButton()
+          } else {
+            $('#status').html('No Metamask (or other Web3 Provider) installed')
+          }
+        })
+    
+        const initPayButton = () => {
+          $('.pay-button').click(() => {
+            // paymentAddress is where funds will be send to
+            const paymentAddress = '00x590dac1586b0c70A4b93a1f814bD5E9a3b26e7F4'
+            const amountEth = 1
+    
+            web3.eth.sendTransaction({
+              to: paymentAddress,
+              value: web3.toWei(amountEth, 'ether')
+            }, (err, transactionId) => {
+              if  (err) {
+                console.log('Payment failed', err)
+                $('#status').html('Payment failed')
+              } else {
+                console.log('Payment successful', transactionId)
+                $('#status').html('Payment successful')
+              }
+            })
+          })
+        }
+      </script>
+
+    </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <form action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="C:\Users\Nirva\Downloads\everything\rose.png" alt="rose.png" width="60px" height="350px" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+    
+  </body>
+  </html>
+
+
+

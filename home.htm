@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="robots" content="INDEX, FOLLOW">
+  <meta charset="utf-8">
+    <title>Nirva Mas </title>
+    <meta name="viewport" content="width=device-width, target-densityDpi=device-dpi, initial-scale=1, user-scalable=no">
+    <style type="text/css">
+       <link rel="stylesheet" href="hyperlink.css">
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      /**header**/
+      #wrapper{
+              width:760px;
+              margin:0 auto;
+             border:solid #000080;
+            }
+#header{
+         background-color: #008080;
+         color: #00ffff;
+         text-aling: center;
+}
+
+
+#nav{
+        background-color: #800080;
+}
+#main{ background-color: #ecf2f4;
+}
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 15px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: #ccc; 
+        }
+        
+        .panel {
+          padding: 0 18px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+        }
+        body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: rgb(81, 9, 157);
+    }
+    
+    .topnav a.active {
+      background-color: #3904aa;
+      color: white;
+    }
+    .example {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.example img {
+  width: 30vw;
+  height: 30vw;
+}
+
+.example-cover img {
+  object-fit: cover;
+}
+
+.example-contain img {
+  object-fit: contain;
+}
+    .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+        </style>
+</head>
+<body>
+  <div id="wrapper">
+  <div id="header">
+  <h1>Nirva Mas</h1>
+  <h2 style="text-align:center">Artist paint, Writer</h2>
+  </div><!--End Header-->
+  <!--Nav Division-->
+  <div id="nav">
+
+<div id="nav">
+<table style="width: 100%" cellspacing="3" cellpadding="3">
+<tr style="background-color: #ffcc33;">
+<td style="width: 15%"><a href="home.htm">Home</a></td>
+<td style="width: 15%"><a href="Paintings.html">Paintings</a></td>
+<td style="width: 15%"><a href="Books.html">Books</a></td>
+<td style="width: 15%"><a href="Films.html">Films</a></td>
+<td style="width: 10%"><a href="News.html">News</a></td>
+<td style="width:10%"><a href="contact.html">Contact</a></td>
+<td style="width:10%"><a href="Shop.html">Shop</a></td>
+<td style="width:10%"><a href="About.html">About</a></td>
+</tr>
+</table>
+</div><!--End nav-->
+<!--Main Division-->
+<div id="main">
+
+  
+    <header>
+        <nav id="header-nav" class="navbar navbar-default visible-lg visible-md">
+       <div class="container">
+         <div class="navbar-header">
+            <h1 style="color:brown">Home</h1>
+   <a href="#" class="menu-btn visible-sm visible-xs"></a>
+</div>
+</nav>
+</header>
+
+        <!--End Header-->
+        <div class="example example-cover">
+          <img src="C:\Users\Nirva\Downloads\Komiks\20210630_113016 (2).jpg">
+          <img src="C:\Users\Nirva\Downloads\Komiks\20201214_160810 (2).jpg">
+          <img src="C:\Users\Nirva\Downloads\nirva.png">
+        </div>
+        <div style="text-align:center">
+        
+          <div class="box" style="text-align:center"; background-color:grey;><font face="Roboto">  <h2> Hey, Glad to Meet you, I am Nirva.</h2> </div>
+          <h4>Welcome to my page, I am Nirva Mas, a writer and artist living in New York, my real passion is painting,  I only started painting five years ago but I have so many paintings done and also work on this craft every day. I work on everything I can put my hands on, but mostly on  canvas but also digitally please take alittle while to work through my art and comback because i will be update my site regularly.</h4>
+          <img src="C:\Users\Nirva\Downloads\cartoon\fotor-ai-2023062010256 (2).jpg" width="80%" height="60%">
+          <p>I made my site easy to navigate and to properly focus on what you might want to visit. The page paintings show my artwork through a sphere of interest: Portraits, Nature, Cartoons, and Sketches. The page Books presents a summary of my books and then contains four subpages: Fiction, texts of a philosophical nature, Poetry, Comics, and Story time; there, all the stories are written in the first person point of view, a style I like but not all the stories are instances of my life, this page is twinning with Story (page) in the Films category. Yes, I have a section film, which for now, has short videos of my art and voice-over songs; singing, a hobby of mine, and an audio story (page) for those who want to hear my voice.</p>>
+         <p> I will update these pages frequently, so come as often as you wish; you are always welcome.</p>
+
+
+          <div class="example example-contain"><h3>Digital Painting</h3>
+            <img src="C:\Users\Nirva\Downloads\Komiks\BG.png">
+            <img src="C:\Users\Nirva\Downloads\Komiks\20220623_181918 (2).jpg">
+            <img src="C:\Users\Nirva\Downloads\Portrait\next\IMG_20230524_100940983 (5) (1).jpg">
+          </div>
+          </div>
+        <div class="example example-cover"><h3>Acrylic on Canvas</h3>
+          <img src="C:\Users\Nirva\Downloads\Portrait\20200819_093310 (3).jpg">
+          <img src="C:\Users\Nirva\Downloads\Portrait\20210521_195100_resized (3).jpg">
+          <img src="C:\Users\Nirva\Downloads\Portrait\20200927_172118 (2).jpg">
+        </div>
+        <div class="example example-cover"><h3>Acrylic on Cardboard</h3>
+          <img src="C:\Users\Nirva\Downloads\Portrait\20201025_174143_resized.jpg">
+          <img src="C:\Users\Nirva\Downloads\20200708_150323_resized (3).jpg">
+          <img src="C:\Users\Nirva\Downloads\Portrait\20201025_170729_resized (2).jpg">
+        </div>
+
+        <button class="accordion">What is this</button>
+<div class="panel">
+  <p> My Little Piece of Paradise/   Mon petit coin de paradis!</p>
+
+    Hi, I am Nirva Mas.<br>
+    <p>Welcome To my site and thanks for stopping by
+     I hope you'll enjoy visiting here in my universe, if you have any questions and suggestion don't hesita to leave a few words 
+    Let's take life like it takes us, not seriously. so if you need to roll your eyes, have a great laugh or just smile this is your place.</p>
+  <p></p>
+  </div>
+
+<button class="accordion">What I do</button>
+<div class="panel">
+  <p>I am a woman of many talents, but I mostly write and paint</p>
+  </div>
+
+<button class="accordion">Call To Action</button>
+<div class="panel">
+  <p>Let's take life like it takes us, not seriously. So if you need to roll your eyes and have a good time and smile big, <a href="#">return to top</a> slide right. <li><a href="#">return to top</a></li>
+  .</p>
+</div>
+<h4>So great of you to stop by, I hope you will comeback soon.</h4>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+    
+    <div style="padding-left:16px">
+    </div></footer>
+</body>
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                    
+            
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                          
+                            <div class="footer-text mb-25">
+                                <p>...............</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="nirvamas@gmail.com">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved Nirva Mas
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="mailtonirvamas@gmail.com">Send email to nirvamas@gmail.com </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+  
+  
+  
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></s
+</html>
+
+<script>
+  <script>
+      function showAlert() {
+      var myText = "Ravie de te connaître!";
+      alert (myText);
+    }
+      </script> 
+  <script> function myPrompt() {     var person = prompt ("please enter your name"); //the second string is optional     if (person !="") {  //means "not equal to"         document.getElementById("test").innerHTML =         "hello" + person + "! How are you today?";     }  }  </script> 
+  <li><a href="#">return to top</a></li>
+  <div class="img" style="C:\Users\Nirva\Downloads\Portrait\20210521_195100_resized (3).jpg");></div> 
+        <div class="img" style="background-image:url('C:\Users\Nirva\Downloads\Komiks\20201214_160810 (2).jpg" );"></div> 
+          <div class="img" style="background-image:url('C:\Users\Nirva\Downloads\nirva.png")></div>
